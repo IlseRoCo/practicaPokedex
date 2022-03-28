@@ -1,0 +1,60 @@
+.imgDivL2 {
+  
+    width: 230px;
+    height: 225px;
+    margin-top: 25px;
+    margin-left: 80px;
+}
+
+.buttonL1b {
+    margin: auto; 
+    position: absolute;
+    float: left;   
+    width: 100px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+.nomPoke {
+    position: absolute;
+    float: left;
+    width: 300px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 50px;
+    font-family: 'Dela Gothic One';
+    font-size:xx-large;
+    text-align: center;
+    color: rgb(238, 255, 0);
+    -webkit-text-stroke: 1px black;
+}
+
+.idPoke {
+    position: absolute;
+    float: left;
+    width: 80px;
+    height: 20px;
+    margin-top: 45px;
+    margin-left: 160px;
+    font-family: 'Dela Gothic One';
+    font-size:medium;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.pTipoTxt {
+    margin-top: 0px;
+    font-family: 'Dela Gothic One';
+    font-size:small;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.txtMoveStat{
+    font-family: 'Dela Gothic One';
+    font-size: smaller;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+

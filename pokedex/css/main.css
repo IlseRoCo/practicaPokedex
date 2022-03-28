@@ -1,0 +1,185 @@
+.divMain {
+   /* margin: auto;    */
+    width: 1200px;
+    height: 600px;
+    background-color: rgb(204, 48, 48); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 45px;
+}
+
+.divCenter {
+    margin: auto;    
+    width: 80px;
+    height: 594px;
+    background-color: rgb(204, 48, 48); 
+    background-size: cover;
+    border-radius: 25px;
+    border-color: black;
+    border-style:solid;
+    margin-left: 560px;
+}
+
+.divC1 {
+    margin: auto;    
+    width: 78px;
+    height: 80px;
+    background-color: rgb(170, 38, 38); 
+    background-size: cover;
+    border-radius: 25px;
+    border-color: black;
+    border-style:solid;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.divC2 {
+    margin: auto;    
+    width: 78px;
+    height: 80px;
+    background-color: rgb(170, 38, 38); 
+    background-size: cover;
+    border-radius: 25px;
+    border-color: black;
+    border-style:solid;
+    margin-top: 425px;
+    margin-left: 0px;
+}
+
+.divL1 {  
+    position: absolute;
+    float: left;
+    width: 560px;
+    height: 100px;
+    background-color: rgb(170, 38, 38); 
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.divL2 {  
+    position: absolute;
+    float: left;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(255, 255, 255); 
+    background-size: cover;
+    border-radius: 20px;
+    margin-top: 120px;
+    margin-left: 80px;
+    border-color: rgb(155, 148, 148);
+    border-style: solid;
+    border-width: 15px;
+}
+
+.divL3 {  
+    position: absolute;
+    float: left;
+    width: 560px;
+    height: 140px;
+    /*background-color: rgb(179, 223, 166); */
+    background-size: cover;
+    border-radius: 20px;
+    margin-top: 460px;
+}
+
+.tabL3 {
+    width: 540px;
+    height: 140px;
+   /* border-color: black;
+    border-style: solid;*/
+    margin-left: 10px;
+ }
+ .thL3 {
+    width: 180px;
+    text-align: center;
+ }
+
+ .divR1 {  
+    float: right;
+    margin-bottom: 10px;
+    width: 553px;
+    height: 140px;
+    background-color: rgb(255, 255, 255); 
+    background-size: cover;
+}
+
+.divR2 {  
+    float:right;
+    margin-top: 100px;
+    width: 553px;
+    height: 50px;
+    background-color:  rgb(204, 48, 48); 
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.divR3 {   
+    position: absolute; 
+    margin-bottom: 0px; 
+    margin-top: 150px; 
+    margin-left: 750px; 
+    width: 350px; 
+    height: 150px; 
+    background-size: cover; 
+    background-color:  #f8f88d;  
+    background-size: cover; 
+    border-radius: 5px; 
+    overflow-y: scroll;
+    border-color: rgb(155, 148, 148);
+    border-style: solid;
+    border-width: 5px;
+
+} 
+ 
+.divR4 {   
+    position: absolute; 
+    margin-bottom: 0px; 
+    margin-top: 360px; 
+    margin-left: 750px; 
+    width: 350px; 
+    height: 100px; 
+    background-size: cover; 
+    background-color:  #f8f88d;   
+    background-size: cover; 
+    border-radius: 5px; 
+    overflow-y: scroll;
+    border-color: rgb(155, 148, 148);
+    border-style: solid;
+    border-width: 5px;
+}
+
+ .thStat1 {
+    width: 280px;
+    background-color:  rgba(77, 255, 41, 0.795);  
+    text-align: left;
+ }
+
+ .thStat2 {
+    width: 55px;
+    background-color:  rgba(77, 255, 41, 0.795);  
+    text-align: right;
+ }
+
+ .thStat3 {
+    width: 350px;
+    background-color:  rgba(77, 255, 41, 0.795);  
+    text-align: center;
+ }
+
+ .divR5 {   
+    position: absolute; 
+    margin-bottom: 0px; 
+    margin-top: 490px; 
+    margin-left: 670px; 
+    width: 500px; 
+    height: 100px; 
+    /*background-size: cover; 
+    background-color:  #ffff00;   */
+
+}
+
+.thDivR5 {
+    width: 166px;
+    /*background-color:  rgba(77, 255, 41, 0.795);  */
+    text-align: center;
+ }

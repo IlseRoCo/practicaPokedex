@@ -1,0 +1,18 @@
+.buttonL1a {
+    position: absolute;
+    float: left;
+    margin: auto;    
+    width: 100px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.buttonL1b {
+    position: absolute;
+    float: right;
+    margin: auto;    
+    width: 400px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 200px;
+}

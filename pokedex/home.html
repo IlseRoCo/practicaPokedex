@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/imagTxt.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+    </style>
+</head>
+<body>
+    <div class="divMain">
+        <div class="divL1">
+            <div class="buttonL1a">
+                <img width="80px" height="80px" src="./imags/icon/button2.png" alt="Active" >
+            </div>
+            <div class="buttonL1b">
+                <img width="30px" height="30px" src="./imags/icon/circleR.png" alt="Red">
+                <img width="32px" height="32px" src="./imags/icon/circleY.png" alt="Yellow">
+                <img width="27px" height="28px" src="./imags/icon/circleG.png" alt="Green">
+            </div>
+        </div>
+
+        <div class="divR1">
+            <div class="divR2"></div>
+        </div>
+        
+        <div class="divR3 txtMoveStat" id="movePoke"><p> MOVIMIENTOS </p></div>
+        <div class="divR4 txtMoveStat" id="statPoke"><p> ESTADÍSTICAS </p></div>
+        <div class="divR5">
+            <table>
+                <tr>
+                    <th class="thDivR5"><img width="120px" height="50px" src="./imags/icon/barra1.png"></th>
+                    <th class="thDivR5"><img width="80px" height="80px" src="./imags/icon/botones.png"></th>
+                    <th class="thDivR5"><img width="150px" height="80px" src="./imags/icon/barras.png"></th>
+                </tr>
+            </table>
+        </div>
+    
+        <div class="divL2">
+            <div class="nomPoke" id="pokeNam"></div>
+            <div class="idPoke" id="pokeIden"></div>
+            <img class="imgDivL2" src="./imags/inic.png" alt="Pokemon" id="pokeImg">
+            <div class="" id="tiPoke"></div>
+        </div>
+        <div class="divL3">
+            <table class="tabL3">
+                <tr>
+                    <th class="thL3" ><a  onclick="fetchPokemon()"><img width="80px" height="80px" src="./imags/icon/searching.png" alt="Buscar"></a></th>
+                    <th ><a class="thL3"><input type="text" placeholder="Pokemon Name" id="pokeName" name="pokeName"></a></th>
+                    <th ><a class="thL3" ><img width="100px" height="100px" src="./imags/icon/joy.png" alt="Buscar"></a></th>
+                </tr>
+            </table>
+        </div>
+
+        <div class="divCenter">
+            <div class="divC1"></div>
+            <div class="divC2"></div>
+        </div>
+
+        
+    </div>
+    
+</body>
+<footer>
+    <script src="./pokedex.js"></script>
+</footer>
+</html>
